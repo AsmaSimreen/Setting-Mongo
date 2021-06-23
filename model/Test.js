@@ -8,7 +8,7 @@ const TestSchema = new Schema({
     },
     testId: {
         type: Number,
-        max: 20,
+        max: 2000000000,
     },
     testDescription: {
         type: String,
